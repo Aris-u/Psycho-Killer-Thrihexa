@@ -28,7 +28,9 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"slime no balaozinho.aseprite","CopyToMask":-1,"filePath":"datafiles","name":"slime no balaozinho.aseprite","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -42,7 +44,7 @@
     {"id":{"name":"OSound_System","path":"objects/OSound_System/OSound_System.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"SoundSystem","path":"scripts/SoundSystem/SoundSystem.yy",},},
-    {"id":{"name":"shovel_knight","path":"sprites/shovel_knight/shovel_knight.yy",},},
+    {"id":{"name":"slime_no_balaozinho","path":"sprites/slime_no_balaozinho/slime_no_balaozinho.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

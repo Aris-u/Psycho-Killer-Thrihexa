@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"shovel_knight",
+  "%Name":"slime_no_balaozinho",
   "bboxMode":0,
-  "bbox_bottom":463,
+  "bbox_bottom":383,
   "bbox_left":0,
-  "bbox_right":603,
+  "bbox_right":383,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"02dea47a-9532-442c-9e38-c1d3c29ac832","name":"02dea47a-9532-442c-9e38-c1d3c29ac832","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"534c65a7-2f16-4cf1-b01a-1eebbff2527c","name":"534c65a7-2f16-4cf1-b01a-1eebbff2527c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":464,
+  "height":384,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"65dfe43a-81d2-4999-917e-e21a2cacdd60","blendMode":0,"displayName":"default","isLocked":false,"name":"65dfe43a-81d2-4999-917e-e21a2cacdd60","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"29c3748b-4911-4140-8c03-cc1051baa000","blendMode":0,"displayName":"default","isLocked":false,"name":"29c3748b-4911-4140-8c03-cc1051baa000","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"shovel_knight",
+  "name":"slime_no_balaozinho",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"shovel_knight",
+    "%Name":"slime_no_balaozinho",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"shovel_knight",
+    "name":"slime_no_balaozinho",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"02dea47a-9532-442c-9e38-c1d3c29ac832","path":"sprites/shovel_knight/shovel_knight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3009df99-e02f-4507-a2c0-c533326dc393","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"534c65a7-2f16-4cf1-b01a-1eebbff2527c","path":"sprites/slime_no_balaozinho/slime_no_balaozinho.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5a43f97a-94ca-48ef-ac89-3c2ec078af36","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":604,
+  "width":384,
 }
