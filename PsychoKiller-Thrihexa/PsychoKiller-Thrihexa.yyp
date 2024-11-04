@@ -40,8 +40,6 @@
     {"id":{"name":"OKey","path":"objects/OKey/OKey.yy",},},
     {"id":{"name":"OPlayer","path":"objects/OPlayer/OPlayer.yy",},},
     {"id":{"name":"OSound_System","path":"objects/OSound_System/OSound_System.yy",},},
-    {"id":{"name":"void_sound","path":"objects/void_sound/void_sound.yy",},},
-    {"id":{"name":"void_sprite","path":"objects/void_sprite/void_sprite.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"SoundSystem","path":"scripts/SoundSystem/SoundSystem.yy",},},
   ],
