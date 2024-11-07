@@ -1,0 +1,18 @@
+{
+  "FolderOrderSettings":[
+    {"name":"System","order":1,"path":"folders/Objects/System.yy",},
+    {"name":"Transition","order":6,"path":"folders/Objects/Transition.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_Dmovetest","order":2,"path":"objects/obj_Dmovetest/obj_Dmovetest.yy",},
+    {"name":"obj_Dwalltest","order":3,"path":"objects/obj_Dwalltest/obj_Dwalltest.yy",},
+    {"name":"obj_transition","order":1,"path":"objects/obj_transition/obj_transition.yy",},
+    {"name":"rm_Dtest","order":1,"path":"rooms/rm_Dtest/rm_Dtest.yy",},
+    {"name":"rm_Dtest2","order":2,"path":"rooms/rm_Dtest2/rm_Dtest2.yy",},
+    {"name":"spr_grass","order":4,"path":"sprites/spr_grass/spr_grass.yy",},
+    {"name":"spr_placeholder_background","order":2,"path":"sprites/spr_placeholder_background/spr_placeholder_background.yy",},
+    {"name":"spr_roomwarp","order":3,"path":"sprites/spr_roomwarp/spr_roomwarp.yy",},
+    {"name":"spr_transition","order":5,"path":"sprites/spr_transition/spr_transition.yy",},
+    {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
+  ],
+}
