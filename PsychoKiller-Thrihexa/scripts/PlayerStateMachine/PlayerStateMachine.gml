@@ -28,10 +28,10 @@ function FreeMove(){
 	down = keyboard_check(ord("S"))
 	_xx = right - left
 	_yy = down - up
-
 	if (_xx != 0 or _yy != 0) { 
 		MovWork()
 		AnimMov()
+		RayCast()
 	}else {
 		image_speed = 0
 		image_index = 1	
@@ -43,7 +43,6 @@ function MovWork() {
 	dir = point_direction(x,y, x + _xx, y + _yy)
 	hspd = lengthdir_x(spd, dir)
 	vspd = lengthdir_y(spd, dir)
-
 	if place_meeting(x + hspd, y, oWall) {
 		while(!place_meeting(x + sign(hspd),y, oWall)){
 			x = x + sign(hspd)
@@ -64,7 +63,7 @@ function MovWork() {
 }
 
 function AnimMov(){
-	image_speed = 1
+	image_speed = 2
 	var nav_list = [up, down, left, right]
 	for (var i = 0; i < array_length(nav_list); ++i) {
 	    checkdir = nav_list[i]

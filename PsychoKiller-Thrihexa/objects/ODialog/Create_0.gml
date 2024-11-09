@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-PlayerSM()
+SRC_ = new DialogSystem(TEXT__)

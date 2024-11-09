@@ -29,7 +29,7 @@
   "origin":0,
   "parent":{
     "name":"Player",
-    "path":"folders/Objects/Player.yy",
+    "path":"folders/Assets/Sprites/Player.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

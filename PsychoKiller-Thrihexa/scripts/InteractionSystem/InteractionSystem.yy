@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"InteractionSystem",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"InteractionSystem",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
