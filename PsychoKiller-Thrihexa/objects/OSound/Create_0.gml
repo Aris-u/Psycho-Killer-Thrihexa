@@ -13,6 +13,8 @@ global.volumeSndMsc = 1
 
 audio_controller =  new AudioController("volumeSndFx","volumeSndMsc","volumeGeneral")
 
+sfx_rock = new AudioPlaySingle(Rock_Dirt_Impact_Dull_D, au_type_sfx);
+
 // exemplo de construtores --
 //sfx_coin = new AudioPlaySingle(sndCoin, au_tyoe_sfx);
 
