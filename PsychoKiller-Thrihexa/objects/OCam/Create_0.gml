@@ -1,3 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-Interact = new InteractionSystem() // introduction interact system
+target = OPlayer
+
+xto = x  
+yto = y
+
+image_alpha = 0

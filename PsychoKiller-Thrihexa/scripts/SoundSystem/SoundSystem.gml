@@ -40,7 +40,7 @@ function AudioElement() constructor {
 function AudioPlaySingle(_sound_id, _au_type, _offset = 1) : AudioElement() constructor {
 	
 	sound_id	= _sound_id;
-	type_		= _au_type;
+ 	type_		= _au_type;
 	offset		= _offset;
 	
 	static Update = function(){

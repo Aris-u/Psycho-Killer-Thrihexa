@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"OGame_Manager",
+  "%Name":"oWall",
   "eventList":[],
   "managed":true,
-  "name":"OGame_Manager",
+  "name":"oWall",
   "overriddenProperties":[],
   "parent":{
-    "name":"System",
-    "path":"folders/Objects/System.yy",
+    "name":"Enviroment",
+    "path":"folders/Objects/Enviroment.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_Wall",
+    "path":"sprites/s_Wall/s_Wall.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
