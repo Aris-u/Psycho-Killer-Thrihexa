@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"OPlayer",
+  "%Name":"oPlayer",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OPlayer",
+  "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Objects/Player.yy",
+    "name":"Objects",
+    "path":"folders/test_new/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oCharacterParent",
+    "path":"objects/oCharacterParent/oCharacterParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_player_down",
-    "path":"sprites/s_player_down/s_player_down.yy",
+    "name":"sPlayer_Idle_Down",
+    "path":"sprites/sPlayer_Idle_Down/sPlayer_Idle_Down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

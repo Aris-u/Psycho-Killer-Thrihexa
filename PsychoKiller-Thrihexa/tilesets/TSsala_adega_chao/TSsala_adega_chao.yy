@@ -1,5 +1,5 @@
 {
-  "$GMTileSet":"",
+  "$GMTileSet":"v1",
   "%Name":"TSsala_adega_chao",
   "autoTileSets":[],
   "macroPageTiles":{
@@ -13,7 +13,7 @@
   "out_tilevborder":2,
   "parent":{
     "name":"adega",
-    "path":"folders/Tile Sets/adega.yy",
+    "path":"folders/Assets/Tile Sets/adega.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
@@ -22,10 +22,6 @@
   "textureGroupId":{
     "name":"Default",
     "path":"texturegroups/Default",
-  },
-  "tileAnimation":{
-    "FrameData":[],
-    "SerialiseFrameCount":1,
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,

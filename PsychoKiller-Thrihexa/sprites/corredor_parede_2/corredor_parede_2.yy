@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"corredor",
-    "path":"folders/Tile Sets/corredor.yy",
+    "path":"folders/Assets/Tile Sets/corredor.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
