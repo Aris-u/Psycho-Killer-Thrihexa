@@ -6,7 +6,6 @@ inputY = 0;
 moveSpeed = 1;
 
 moving = false;
-moveDirection = 0;
 targetX = x;
 targetY = y;
 

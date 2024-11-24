@@ -9,5 +9,7 @@ function collission(tileX, tileY) {
 	
 	if(position_meeting(_roomX, _roomY, oCollision)) return true;
 	
+	if (position_meeting(_roomX, _roomY, oCharacterParent)) return true;
+	
 	return false;
 }
