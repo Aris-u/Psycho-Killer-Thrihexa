@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"System",
-    "path":"folders/Objects/System.yy",
+    "path":"folders/Package_Game/Objects/System.yy",
   },
   "parentObjectId":null,
   "persistent":false,

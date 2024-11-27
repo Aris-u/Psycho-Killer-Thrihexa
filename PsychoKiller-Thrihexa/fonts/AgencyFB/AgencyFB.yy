@@ -120,7 +120,7 @@
   "name":"AgencyFB",
   "parent":{
     "name":"Fonts",
-    "path":"folders/Assets/Fonts.yy",
+    "path":"folders/Package_Game/Assets/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[
