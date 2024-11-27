@@ -6,8 +6,8 @@
   "name":"oCollision",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enviroment",
-    "path":"folders/Package_Game/Objects/Enviroment.yy",
+    "name":"Player",
+    "path":"folders/Package_Game/Assets/Sprites/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

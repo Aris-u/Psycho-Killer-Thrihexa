@@ -6,6 +6,8 @@
 view_enabled = true;
 view_visible[0] = true;
 
+zoom_speed = 1.7
+
 camera = camera_create_view(0,0, RES_W,RES_H);
 
 view_set_camera(0, camera);
@@ -25,6 +27,11 @@ window_set_position(display_width/2 - window_width/2, display_height/2 - window_
 startDialogZoom = false;
 _npcTarget = noone;
 _playerTarget = noone;
+in_settings = false;
+inventoryOpen = false;
+
+camW = camera_get_view_width(camera)
+camH = camera_get_view_height(camera)
 
 zoom_dialog = function(_obj) {
 	_Target = _obj
@@ -32,9 +39,18 @@ zoom_dialog = function(_obj) {
 	startDialogZoom = true;
 }
 
+zoom_inv = function() {
+	alarm[3] = 30
+	inventoryOpen = true;
+}
+
 reset_cam = function(){
 	var _parentTarget = object_get_parent(_Target.object_index);
 	if (_parentTarget == oItemParent){_Target.takeItem()}
 	_Target = noone;
 	startDialogZoom = false;	
+}
+
+reset_cam_inv = function(){
+	inventoryOpen = false;	
 }

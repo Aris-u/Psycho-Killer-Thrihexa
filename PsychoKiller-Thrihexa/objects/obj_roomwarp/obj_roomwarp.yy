@@ -9,8 +9,8 @@
   "name":"obj_roomwarp",
   "overriddenProperties":[],
   "parent":{
-    "name":"System",
-    "path":"folders/Package_Game/Objects/System.yy",
+    "name":"Tools",
+    "path":"folders/Package_Game/Objects/System/Tools.yy",
   },
   "parentObjectId":null,
   "persistent":false,

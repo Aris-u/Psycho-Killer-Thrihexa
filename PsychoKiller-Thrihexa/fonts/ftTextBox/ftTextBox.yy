@@ -118,8 +118,8 @@
   "maintainGms1Font":false,
   "name":"ftTextBox",
   "parent":{
-    "name":"GUI",
-    "path":"folders/Package_Game/Objects/GUI.yy",
+    "name":"dialog",
+    "path":"folders/Package_Game/Objects/GUI/dialog.yy",
   },
   "pointRounding":0,
   "ranges":[

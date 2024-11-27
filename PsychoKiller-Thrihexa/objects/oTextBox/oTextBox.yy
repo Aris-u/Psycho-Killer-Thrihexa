@@ -10,8 +10,8 @@
   "name":"oTextBox",
   "overriddenProperties":[],
   "parent":{
-    "name":"GUI",
-    "path":"folders/Package_Game/Objects/GUI.yy",
+    "name":"dialog",
+    "path":"folders/Package_Game/Objects/GUI/dialog.yy",
   },
   "parentObjectId":null,
   "persistent":false,

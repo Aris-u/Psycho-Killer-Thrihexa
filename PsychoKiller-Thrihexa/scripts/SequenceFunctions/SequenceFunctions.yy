@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"TextboxFunctions",
+  "%Name":"SequenceFunctions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"TextboxFunctions",
+  "name":"SequenceFunctions",
   "parent":{
     "name":"Scripts",
     "path":"folders/Package_Game/Assets/Scripts.yy",

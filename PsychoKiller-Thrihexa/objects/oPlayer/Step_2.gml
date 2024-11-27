@@ -6,11 +6,16 @@ var _facingCellX = x + lengthdir_x(_len, _dir);
 var _facingCellY = y + lengthdir_y(_len, _dir);
 var _iParents = [oNPCParent, oItemParent]
 var _target = instance_position(_facingCellX, _facingCellY, _iParents);
+var _onInv = keyboard_check_pressed(ord("R"));
 
-if (_target != noone && !instance_exists(oTextBox)) {
+if (_target != noone && !check_sequence()) {
 		_target.showMessageIcon = true;
 	if (keyboard_check_pressed(ord("E"))) {
 		oCamera.zoom_dialog(_target)
 		_target.moveDirection = point_direction(_target.x, _target.y, x, y)
 	}
+}
+
+if (_onInv && !check_sequence(oInventory) && !moving) {
+	alarm[0] = 15
 }
