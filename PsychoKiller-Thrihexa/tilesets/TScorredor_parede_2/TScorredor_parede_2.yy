@@ -13,7 +13,7 @@
   "out_tilevborder":2,
   "parent":{
     "name":"corredor",
-    "path":"folders/Assets/Tile Sets/corredor.yy",
+    "path":"folders/Package_Game/Assets/TileSets/Tile Sets/corredor.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

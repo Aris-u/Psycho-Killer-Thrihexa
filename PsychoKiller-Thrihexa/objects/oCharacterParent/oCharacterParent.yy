@@ -10,8 +10,8 @@
   "name":"oCharacterParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/test_new/Objects.yy",
+    "name":"AI",
+    "path":"folders/Package_Game/Objects/AI.yy",
   },
   "parentObjectId":null,
   "persistent":false,

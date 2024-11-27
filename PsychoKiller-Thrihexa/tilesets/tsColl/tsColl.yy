@@ -25,7 +25,7 @@
   "out_tilevborder":2,
   "parent":{
     "name":"TileSets",
-    "path":"folders/test_new/Assets/TileSets.yy",
+    "path":"folders/Package_Game/Assets/TileSets.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

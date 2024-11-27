@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Dialog",
-    "path":"folders/test_new/Assets/Sprites/Dialog.yy",
+    "path":"folders/Package_Game/Assets/Sprites/Dialog.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

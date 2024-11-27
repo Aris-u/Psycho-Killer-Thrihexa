@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Enviroment",
-    "path":"folders/test_new/Objects/Enviroment.yy",
+    "path":"folders/Package_Game/Objects/Enviroment.yy",
   },
   "parentObjectId":{
     "name":"oCollision",

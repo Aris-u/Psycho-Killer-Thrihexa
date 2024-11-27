@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Enviroment",
-    "path":"folders/test_new/Assets/Sprites/Enviroment.yy",
+    "path":"folders/Package_Game/Assets/Sprites/Enviroment.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"banheiro1",
-    "path":"folders/Assets/Tile Sets/banheiro1.yy",
+    "path":"folders/Package_Game/Assets/TileSets/Tile Sets/banheiro1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

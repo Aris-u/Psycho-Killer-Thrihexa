@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"AI",
-    "path":"folders/test_new/Objects/AI.yy",
+    "path":"folders/Package_Game/Objects/AI.yy",
   },
   "parentObjectId":{
     "name":"oCharacterParent",

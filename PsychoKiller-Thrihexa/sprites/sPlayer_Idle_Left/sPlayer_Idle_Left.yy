@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Idle",
-    "path":"folders/test_new/Assets/Sprites/Player/Idle.yy",
+    "path":"folders/Package_Game/Assets/Sprites/Player/Idle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

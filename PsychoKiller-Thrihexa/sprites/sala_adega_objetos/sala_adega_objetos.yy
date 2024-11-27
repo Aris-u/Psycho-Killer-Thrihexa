@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"adega",
-    "path":"folders/Assets/Tile Sets/adega.yy",
+    "path":"folders/Package_Game/Assets/TileSets/Tile Sets/adega.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -11,7 +11,7 @@
   ],
   "parent":{
     "name":"NPCs",
-    "path":"folders/test_new/Objects/AI/NPCs.yy",
+    "path":"folders/Package_Game/Objects/AI/NPCs.yy",
   },
   "parentObjectId":{
     "name":"oNPCParent",

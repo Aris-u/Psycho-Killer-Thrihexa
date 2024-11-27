@@ -8,8 +8,8 @@
   "name":"GridChecker",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/test_new/Objects.yy",
+    "name":"System",
+    "path":"folders/Package_Game/Objects/System.yy",
   },
   "parentObjectId":null,
   "persistent":false,

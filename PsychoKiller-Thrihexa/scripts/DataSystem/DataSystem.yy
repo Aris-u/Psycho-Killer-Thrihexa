@@ -6,7 +6,7 @@
   "name":"DataSystem",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "path":"folders/Package_Game/Assets/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

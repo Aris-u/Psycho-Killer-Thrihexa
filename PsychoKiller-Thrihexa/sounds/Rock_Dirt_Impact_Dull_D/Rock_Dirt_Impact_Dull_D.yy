@@ -13,7 +13,7 @@
   "name":"Rock_Dirt_Impact_Dull_D",
   "parent":{
     "name":"Sounds",
-    "path":"folders/Assets/Sounds.yy",
+    "path":"folders/Package_Game/Assets/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

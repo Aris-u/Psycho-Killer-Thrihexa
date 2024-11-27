@@ -1,6 +1,6 @@
 function collission(tileX, tileY) {
 	
-	var _tilemap = OCam.collTilemap;
+	var _tilemap = oRoomManager.collTilemap;
 	
 	if(tilemap_get(_tilemap, tileX, tileY )) return true
 	

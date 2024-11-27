@@ -11,8 +11,8 @@
   "name":"obj_transition",
   "overriddenProperties":[],
   "parent":{
-    "name":"Transition",
-    "path":"folders/Objects/Transition.yy",
+    "name":"System",
+    "path":"folders/Package_Game/Objects/System.yy",
   },
   "parentObjectId":null,
   "persistent":true,
@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_transition",
-    "path":"sprites/spr_transition/spr_transition.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

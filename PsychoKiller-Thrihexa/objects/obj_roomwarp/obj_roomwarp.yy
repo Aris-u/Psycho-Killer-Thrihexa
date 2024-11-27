@@ -9,8 +9,8 @@
   "name":"obj_roomwarp",
   "overriddenProperties":[],
   "parent":{
-    "name":"Transition",
-    "path":"folders/Objects/Transition.yy",
+    "name":"System",
+    "path":"folders/Package_Game/Objects/System.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_roomwarp",
-    "path":"sprites/spr_roomwarp/spr_roomwarp.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
