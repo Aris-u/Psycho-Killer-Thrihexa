@@ -13,7 +13,7 @@
   "out_tilevborder":2,
   "parent":{
     "name":"adega",
-    "path":"folders/Tile Sets/adega.yy",
+    "path":"folders/Tile Sets/level -1/adega.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

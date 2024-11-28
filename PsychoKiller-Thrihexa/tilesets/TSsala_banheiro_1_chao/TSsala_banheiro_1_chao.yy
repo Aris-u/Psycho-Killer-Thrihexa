@@ -13,7 +13,7 @@
   "out_tilevborder":2,
   "parent":{
     "name":"banheiro1",
-    "path":"folders/Tile Sets/banheiro1.yy",
+    "path":"folders/Tile Sets/level 0/banheiro1.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

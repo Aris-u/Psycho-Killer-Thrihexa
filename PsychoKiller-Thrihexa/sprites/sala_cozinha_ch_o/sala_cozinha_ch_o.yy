@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"cozinha",
-    "path":"folders/Tile Sets/cozinha.yy",
+    "path":"folders/Tile Sets/level 0/cozinha.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

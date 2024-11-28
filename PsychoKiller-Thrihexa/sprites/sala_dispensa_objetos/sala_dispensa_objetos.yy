@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"dispensa",
-    "path":"folders/Tile Sets/dispensa.yy",
+    "path":"folders/Tile Sets/level 0/dispensa.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

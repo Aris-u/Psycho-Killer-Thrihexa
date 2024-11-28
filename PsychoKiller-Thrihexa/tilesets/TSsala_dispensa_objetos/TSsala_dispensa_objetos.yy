@@ -13,7 +13,7 @@
   "out_tilevborder":2,
   "parent":{
     "name":"dispensa",
-    "path":"folders/Tile Sets/dispensa.yy",
+    "path":"folders/Tile Sets/level 0/dispensa.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

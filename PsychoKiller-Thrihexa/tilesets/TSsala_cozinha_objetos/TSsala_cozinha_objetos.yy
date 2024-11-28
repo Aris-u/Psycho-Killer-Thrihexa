@@ -3,9 +3,16 @@
   "%Name":"TSsala_cozinha_objetos",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":18,
+    "SerialiseWidth":15,
+    "TileCompressedData":[
+      -82,0,6,203,204,0,0,203,204,-9,0,6,217,218,0,0,217,218,-9,0,6,231,232,0,0,231,232,-9,0,6,245,246,0,0,
+      245,246,-9,0,6,259,260,0,0,259,260,-22,0,10,203,204,0,0,203,204,0,0,203,204,-5,0,10,217,218,0,0,217,
+      218,0,0,217,218,-5,0,10,231,232,203,204,231,232,203,204,231,232,-5,0,10,245,246,217,218,245,246,217,
+      218,245,246,-5,0,10,259,260,231,232,259,260,231,232,259,260,-7,0,6,245,246,0,0,245,246,-9,0,8,259,260,
+      0,0,259,260,0,0,
+    ],
+    "TileDataFormat":1,
   },
   "name":"TSsala_cozinha_objetos",
   "out_columns":21,
@@ -13,7 +20,7 @@
   "out_tilevborder":2,
   "parent":{
     "name":"cozinha",
-    "path":"folders/Tile Sets/cozinha.yy",
+    "path":"folders/Tile Sets/level 0/cozinha.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
