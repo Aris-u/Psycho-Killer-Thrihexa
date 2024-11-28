@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Rock_Dirt_Impact_Dull_D",
+  "%Name":"snd_Footstep",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.523832,
-  "name":"Rock_Dirt_Impact_Dull_D",
+  "duration":0.05449,
+  "name":"snd_Footstep",
   "parent":{
     "name":"Sounds",
     "path":"folders/Assets/Sounds.yy",
@@ -18,8 +18,8 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
-  "soundFile":"Rock_Dirt_Impact_Dull_D.wav",
+  "sampleRate":48000,
+  "soundFile":"snd_Footstep.wav",
   "type":0,
   "volume":1.0,
 }

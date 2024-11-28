@@ -29,6 +29,7 @@ function FreeMove(){
 	_xx = right - left
 	_yy = down - up
 	if (_xx != 0 or _yy != 0) { 
+		sfx_step.play = true;
 		MovWork()
 		AnimMov()
 		RayCast()
@@ -69,6 +70,7 @@ function AnimMov(){
 	    checkdir = nav_list[i]
 		if(checkdir){
 			if(sprite_index = spr_player[i]){
+				
 				exit
 			}else{
 				sprite_index = spr_player[i]

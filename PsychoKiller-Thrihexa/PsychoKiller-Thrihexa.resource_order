@@ -15,9 +15,9 @@
     {"name":"dispensa","order":3,"path":"folders/Tile Sets/level 0/dispensa.yy",},
     {"name":"employee","order":5,"path":"folders/Tile Sets/level 0/employee.yy",},
     {"name":"galery","order":6,"path":"folders/Tile Sets/level 0/galery.yy",},
-    {"name":"toileter","order":9,"path":"folders/Tile Sets/level 0/toileter.yy",},
     {"name":"hall","order":7,"path":"folders/Tile Sets/level 0/hall.yy",},
     {"name":"toiletdr","order":8,"path":"folders/Tile Sets/level 0/toiletdr.yy",},
+    {"name":"toileter","order":9,"path":"folders/Tile Sets/level 0/toileter.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"obj_Dmovetest","order":2,"path":"objects/obj_Dmovetest/obj_Dmovetest.yy",},
