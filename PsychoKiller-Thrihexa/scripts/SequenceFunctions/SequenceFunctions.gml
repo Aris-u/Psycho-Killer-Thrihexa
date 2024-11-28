@@ -63,3 +63,7 @@ function check_sequence(ignore = noone) {
 function interrupt_entrance_inv(){
 	layer_sequence_pause(global.InventorySequence);
 }
+
+function interrupt_menu(){
+	layer_sequence_pause(global.pausedSequence);
+}

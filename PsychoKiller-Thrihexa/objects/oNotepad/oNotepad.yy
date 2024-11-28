@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oInventory",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":73,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oNotepad",
+  "eventList":[],
   "managed":true,
-  "name":"oInventory",
+  "name":"oNotepad",
   "overriddenProperties":[],
   "parent":{
     "name":"Inventory",
@@ -31,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sNotepad",
+    "path":"sprites/sNotepad/sNotepad.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -24,6 +24,6 @@ camera_set_view_pos(camera, camX, camY);
 camera_set_view_size(camera, camW, camH);
 
 if (keyboard_check_pressed(vk_escape) && !check_sequence(oSettings)){
-	alarm[2] = 30
+	alarm[2] = 15
 	in_settings = !in_settings
 }

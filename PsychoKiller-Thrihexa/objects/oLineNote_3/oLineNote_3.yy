@@ -1,19 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oInventory",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":73,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oLineNote_3",
+  "eventList":[],
   "managed":true,
-  "name":"oInventory",
+  "name":"oLineNote_3",
   "overriddenProperties":[],
   "parent":{
     "name":"Inventory",
     "path":"folders/Package_Game/Objects/GUI/Inventory.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oLineParent",
+    "path":"objects/oLineParent/oLineParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sLine",
+    "path":"sprites/sLine/sLine.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
