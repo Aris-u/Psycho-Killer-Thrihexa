@@ -16,7 +16,7 @@ function close_textbox () {
 	layer_sequence_destroy(global.textboxSequence);
 	instance_destroy(oTextBox);
 	if(!global.ignore_input){	
-		oCamera.reset_cam()
+	if(!global.game_over){oCamera.reset_cam()}
 		global.paused = false;
 	}
 	keyboard_clear(ord("E"))

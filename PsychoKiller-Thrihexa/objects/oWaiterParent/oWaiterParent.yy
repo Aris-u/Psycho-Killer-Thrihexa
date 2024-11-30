@@ -1,19 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oSecurityParent",
+  "%Name":"oWaiterParent",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oSecurityParent",
+  "name":"oWaiterParent",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oAIParent","path":"objects/oAIParent/oAIParent.yy",},"propertyId":{"name":"normal_behaviour","path":"objects/oAIParent/oAIParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
   "parent":{
-    "name":"Security",
-    "path":"folders/Package_Game/Objects/AI/Security.yy",
+    "name":"Waiter",
+    "path":"folders/Package_Game/Objects/AI/Waiter.yy",
   },
   "parentObjectId":{
     "name":"oAIParent",
@@ -32,9 +31,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"defaultDialogue","filters":[],"listItems":[],"multiselect":false,"name":"defaultDialogue","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.dialogue.SecurityEnd_game","varType":4,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
