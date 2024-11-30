@@ -13,6 +13,9 @@ pathPointX = 0
 pathPointY = 0
 warning = false;
 
+lastX = xstart
+lastY = ystart
+
 move_to_point = function(_targetX, _targetY) {
 	var _canMove = mp_grid_path(global.AIGrid, path, x, y, _targetX, _targetY, false);
 

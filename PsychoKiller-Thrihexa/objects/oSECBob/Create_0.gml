@@ -14,8 +14,8 @@ states = {
 	walk: {
 		left: sNPC_Walk_Left,
 		right: sNPC_Walk_Right,
-		up: sNPC_Walk_Right,
-		down: sNPC_Walk_Left
+		up: sNPC_Walk_Up,
+		down: sNPC_Walk_Down
 	}
 }
 

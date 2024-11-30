@@ -14,7 +14,8 @@ if (_target != noone && !check_sequence()) {
 	else{_target.showMessageIcon = true;}
 	if (keyboard_check_pressed(ord("E"))) {
 		oCamera.zoom_dialog(_target)
-		_target.moveDirection = point_direction(_target.x, _target.y, x, y)}
+		_target.moveDirection = point_direction(_target.x, _target.y, x, y)
+	}
 }
 
 if (_onInv && !check_sequence(oInventory) && !moving) {

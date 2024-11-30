@@ -10,6 +10,10 @@ var _speakers = {
 	GM_: {
 		name: "",
 		image: sGM_
+	},
+	Security:{
+		name:"Security",
+		image: sNPC_Idle_Down
 	}
 }
 
@@ -69,5 +73,12 @@ global.dialogue.handoff_item = [
 	{
 		speaker: _speakers.GM_,
 		message: "HandedOff: "
+	}
+]
+
+global.dialogue.SecurityEnd_game = [
+	{
+		speaker: _speakers.Security,
+		message:"Sir.....  you are under arrest!!!"
 	}
 ]
