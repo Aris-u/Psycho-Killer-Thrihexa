@@ -20,5 +20,4 @@ states = {
 }
 
 state = states.idle;
-
-inv_open = false;
+danger = false;

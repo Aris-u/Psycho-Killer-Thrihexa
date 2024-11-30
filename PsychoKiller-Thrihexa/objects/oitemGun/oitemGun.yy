@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"oitemGun",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oItemParent","path":"objects/oItemParent/oItemParent.yy",},"propertyId":{"name":"displayName","path":"objects/oItemParent/oItemParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Revolver\"",},
+  ],
   "parent":{
     "name":"Items",
     "path":"folders/Package_Game/Objects/Items.yy",
@@ -27,7 +29,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"defaultDialogue","filters":[],"listItems":[],"multiselect":false,"name":"defaultDialogue","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.dialogue.get_gun","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"defaultDialogue","filters":[],"listItems":[],"multiselect":false,"name":"defaultDialogue","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.dialogue.get_item","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

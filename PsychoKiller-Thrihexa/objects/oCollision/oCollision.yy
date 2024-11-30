@@ -6,8 +6,8 @@
   "name":"oCollision",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Package_Game/Assets/Sprites/Player.yy",
+    "name":"Tools",
+    "path":"folders/Package_Game/Objects/System/Tools.yy",
   },
   "parentObjectId":null,
   "persistent":false,

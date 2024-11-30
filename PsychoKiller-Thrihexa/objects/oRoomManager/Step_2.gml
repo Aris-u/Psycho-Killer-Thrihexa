@@ -3,3 +3,5 @@
 with (all) {
 	depth = -bbox_bottom;
 }
+
+update_alert()

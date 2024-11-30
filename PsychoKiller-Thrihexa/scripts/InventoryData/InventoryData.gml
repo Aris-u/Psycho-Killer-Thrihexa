@@ -1,7 +1,6 @@
 
 
 global.inventory = []
-global.HoldItem = noone
 
 function addItem (itemID) {
 	array_push(global.inventory, itemID)
@@ -17,6 +16,14 @@ function findItem (itemID){
 
 function holdItem(itemID){
 	if(findItem(itemID)){
-		if(global.HoldItem != itemID){global.HoldItem = itemID}
-	}else return;
+		if(global.HoldItem != itemID){
+			global.HoldItem = itemID;
+			return true;
+		}
+	}else return false;
 }
+
+function handOff(){
+	global.HoldItem = ""	
+}
+

@@ -1,4 +1,5 @@
-function collission(tileX, tileY) {
+function collission(tileX, tileY, _Target) {
+	var _parentTarget = object_get_parent(_Target.object_index);
 	
 	var _tilemap = oRoomManager.collTilemap;
 	
@@ -10,6 +11,9 @@ function collission(tileX, tileY) {
 	if(position_meeting(_roomX, _roomY, oCollision)) return true;
 	
 	if (position_meeting(_roomX, _roomY, oCharacterParent)) return true;
-	
+	if (_parentTarget == oSecurityParent || _parentTarget == oNPCParent)
+	{
+	if (position_meeting(_roomX, _roomY, oInvisible)) return true;
+	}
 	return false;
 }
