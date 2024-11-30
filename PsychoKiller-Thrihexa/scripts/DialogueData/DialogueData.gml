@@ -10,10 +10,17 @@ var _speakers = {
 	GM_: {
 		name: "",
 		image: sGM_
+	},
+	Security:{
+		name:"Security",
+		image: sNPC_Idle_Down
 	}
 }
 
 global.dialogue = {}
+global.grabbed_item =  ""
+global.ignore_input = false;
+global.HoldItem = noone;
 
 global.dialogue.bob_meet = [
 	{
@@ -38,9 +45,40 @@ global.dialogue.bob_meet = [
 	},
 ]
 
-global.dialogue.get_gun = [
+global.dialogue.get_item = [
 	{
 		speaker: _speakers.GM_,
-		message: "...You've take the gun"
+		message: "...You've take the " 
+	}
+]
+
+global.dialogue.bob_kill = [
+	{
+		speaker: _speakers.bob,
+		message: "Wait.....what are you doing with that gun ?"
+	},{
+		speaker: _speakers.player,
+		message:"Nothing personal buddy..... just bussines ya'know ?"
+	}
+]
+
+global.dialogue.hand_item= [
+	{
+		speaker: _speakers.GM_,
+		message: "Using: " 
+	}
+]
+
+global.dialogue.handoff_item = [
+	{
+		speaker: _speakers.GM_,
+		message: "HandedOff: "
+	}
+]
+
+global.dialogue.SecurityEnd_game = [
+	{
+		speaker: _speakers.Security,
+		message:"Sir.....  you are under arrest!!!"
 	}
 ]

@@ -1,7 +1,6 @@
 showMessageIcon = false;
-itemID = noone
 
 takeItem = function(){
-	addItem(itemID)
+	addItem(displayName)
 	instance_destroy()	
 }

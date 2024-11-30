@@ -22,3 +22,5 @@ set_state = function(newState) {
 	state = newState;
 	image_index = 0;
 }
+
+dead = false;

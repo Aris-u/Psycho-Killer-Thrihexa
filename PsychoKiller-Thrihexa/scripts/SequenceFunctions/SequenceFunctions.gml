@@ -1,6 +1,7 @@
  global.textboxSequence = -1;
  global.pausedSequence = -1;
  global.InventorySequence = -1;
+ global.player_checker = false;
 
 function create_textbox (_dialogueArray) {
 	var _textbox = instance_create_layer(0, 0, "TextBox", oTextBox);
@@ -14,8 +15,10 @@ function create_textbox (_dialogueArray) {
 function close_textbox () {
 	layer_sequence_destroy(global.textboxSequence);
 	instance_destroy(oTextBox);
-	oCamera.reset_cam()
-	global.paused = false;
+	if(!global.ignore_input){	
+	if(!global.game_over){oCamera.reset_cam()}
+		global.paused = false;
+	}
 	keyboard_clear(ord("E"))
  }
  
@@ -46,7 +49,6 @@ function close_inventory() {
 	layer_sequence_destroy(global.InventorySequence);
 	instance_destroy(oInventory);
 	global.paused = false;
-	oCamera.reset_cam_inv()
  }
  
 global.sequencesID = [oTextBox,oSettings,oInventory]
@@ -62,4 +64,8 @@ function check_sequence(ignore = noone) {
 
 function interrupt_entrance_inv(){
 	layer_sequence_pause(global.InventorySequence);
+}
+
+function interrupt_menu(){
+	layer_sequence_pause(global.pausedSequence);
 }
