@@ -118,3 +118,113 @@ function AudioPlayLoop(_sound_id, _au_type, _milli , _offset = 1) : AudioElement
 		}	
 				
 }
+
+function Audio3DPlaySingle(_sound_id, _au_type, _offset = 1, _maxD, _startDrop, _multi, _oOwner) : AudioElement() constructor {
+	
+	sound_id	= _sound_id;
+ 	type_		= _au_type;
+	offset		= _offset;
+	max_distance_to_be_heard = _maxD
+	start_dropping = _startDrop
+	multiplier = _multi
+	soundOwner = _oOwner
+	
+	static Update = function(){
+		
+		// set to play
+		if(play){		
+			//Tocando de fato
+			var _snd = audio_play_sound_at(
+				sound_id,
+				soundOwner.x,
+				soundOwner.y, 
+				0, 
+				max_distance_to_be_heard,
+				start_dropping,
+				multiplier,
+				0,
+				1
+			)
+			
+			//Descobrindo volume
+			var _level
+			if(type_ == au_type_sfx){
+				_level = controller.vol_sfx * offset;
+			}
+			else {
+				_level = controller.vol_music * offset;
+			}
+				
+			audio_sound_gain(_snd, _level, 0);
+			play = false
+				
+			} 
+		}	
+}
+
+function Audio3DPlayLoop(_sound_id, _au_type, _milli , _offset = 1, _maxD, _startDrop, _multi, _oOwner) : AudioElement() constructor {
+	sound_id	= _sound_id;
+	type_		= _au_type;
+	offset		= _offset;
+	id_playind = noone;
+	vol			= 0;
+	vol_spd		= 1/(game_get_speed(gamespeed_fps)*(_milli * 0.001))
+	max_distance_to_be_heard = _maxD
+	start_dropping = _startDrop
+	multiplier = _multi
+	soundOwner = _oOwner
+	
+	static Update = function(){
+		
+		// set to play
+		if(play){		
+			//Tocando de fato
+			
+			if(!audio_is_playing(id_playind)){
+				id_playind = audio_play_sound_at(
+				sound_id,
+				soundOwner.x,
+				soundOwner.y, 
+				0, 
+				max_distance_to_be_heard,
+				start_dropping,
+				multiplier,
+				0,
+				1
+			)
+			}
+				
+			if (vol < 1){ vol += vol_spd} else {vol = 1};
+				
+			}
+			
+		// stop playing
+		if(!play){
+			//low volume
+			if(vol > 0){ vol -= vol_spd}
+			//stop play
+			else{
+				vol = 0
+				//parando de tocar de fato
+				audio_stop_sound(id_playind)
+			}
+		}
+		
+		if(audio_is_playing(id_playind)){
+			// discover volume
+			var _level
+			if(type_== au_type_sfx){
+				_level = controller.vol_sfx * vol * offset;
+			}
+			else {
+				_level = controller.vol_music * vol * offset;
+			}
+			
+			audio_sound_gain(id_playind, _level, 0);
+		
+		}	
+			
+			
+		}	
+				
+}
