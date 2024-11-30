@@ -61,6 +61,13 @@ global.dialogue.bob_kill = [
 global.dialogue.hand_item= [
 	{
 		speaker: _speakers.GM_,
-		message: "Using:  " 
+		message: "Using: " 
+	}
+]
+
+global.dialogue.handoff_item = [
+	{
+		speaker: _speakers.GM_,
+		message: "HandedOff: "
 	}
 ]

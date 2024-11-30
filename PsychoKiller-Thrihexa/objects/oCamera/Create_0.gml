@@ -32,6 +32,7 @@ inventoryOpen = false;
 kill = false;
 camW = camera_get_view_width(camera)
 camH = camera_get_view_height(camera)
+timer = 120
 
 zoom_dialog = function(_obj) {
 	_Target = _obj

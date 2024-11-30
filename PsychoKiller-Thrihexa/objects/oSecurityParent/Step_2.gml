@@ -4,4 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-if(global.viewPlayer)if(warning){global.detection = alert.red}
+if(global.viewPlayer){
+	if(warning){global.detection = alert.red}
+}else if(global.detection = alert.red){global.detection = alert.yellow}

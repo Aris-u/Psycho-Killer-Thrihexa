@@ -12,7 +12,10 @@ if (pathNextPoint > 0 && x == pathPointX && y == pathPointY) {
 }
 
 if (watcher){
-	if(awareness_hierarchy()){warning = true}
-	else { warning = false;}
-	if(global.viewPlayer)if(warning){ update_alert(5)}
+	var response = awareness_hierarchy()
+	if(response > 0){
+	warning = true
+	update_alert(id,1)
+	if(response > 1){update_alert(id,2)}}
+	else{warning = false}
 }   

@@ -16,7 +16,14 @@ function findItem (itemID){
 
 function holdItem(itemID){
 	if(findItem(itemID)){
-		if(global.HoldItem != itemID){global.HoldItem = itemID}
-	}else return;
+		if(global.HoldItem != itemID){
+			global.HoldItem = itemID;
+			return true;
+		}
+	}else return false;
+}
+
+function handOff(){
+	global.HoldItem = ""	
 }
 

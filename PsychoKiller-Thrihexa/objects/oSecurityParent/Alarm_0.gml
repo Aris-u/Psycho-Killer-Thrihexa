@@ -23,7 +23,7 @@ if(!normal_behaviour){
 			var _targetX = to_room(to_tile(oPlayer.x) + 0.5)
 			var _targetY = to_room(to_tile(oPlayer.y) + 0.5)
 			move_to_point(_targetX, _targetY)	
-		alarm[0] = 15
+		alarm[0] = 30
 		break;
 	}
 	

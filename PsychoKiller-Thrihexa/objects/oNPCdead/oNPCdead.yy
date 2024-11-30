@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"oNPCdead",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"oNPCdead",
   "overriddenProperties":[],
   "parent":{
-    "name":"NPCs",
-    "path":"folders/Package_Game/Objects/AI/NPCs.yy",
+    "name":"Enviroment",
+    "path":"folders/Package_Game/Objects/Enviroment.yy",
   },
   "parentObjectId":{
     "name":"oCollision",

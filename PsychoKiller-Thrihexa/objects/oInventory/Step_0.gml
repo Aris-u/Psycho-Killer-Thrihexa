@@ -16,10 +16,14 @@ if (moveChoice != 0){
 }
 if (EnterChoice){
 	if(check_valid(opt)){
-	holdItem(global.inventory[opt])
+	if(holdItem(global.inventory[opt])){
 	global.grabbed_item = global.inventory[opt]
 	create_textbox(global.dialogue.hand_item)
-	}
+	}else {
+		handOff()
+		global.grabbed_item = global.inventory[opt]
+		create_textbox(global.dialogue.handoff_item)
+	}}
 }
 
 for (var i = 0; i < array_length(global.inventory); ++i) {

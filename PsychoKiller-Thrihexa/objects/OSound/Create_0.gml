@@ -11,6 +11,7 @@ global.volumeSndFx = 1
 global.volumeSndMsc = 1
 #endregion 
 
+audio_falloff_set_model(audio_falloff_exponent_distance)
 audio_controller =  new AudioController("volumeSndFx","volumeSndMsc","volumeGeneral")
 
 sfx_rock = new AudioPlaySingle(Rock_Dirt_Impact_Dull_D, au_type_sfx);

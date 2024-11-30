@@ -23,7 +23,15 @@ camY = lerp(camY, targetY, CAM_SMOOTH);
 camera_set_view_pos(camera, camX, camY);
 camera_set_view_size(camera, camW, camH);
 
-if(global.note_alert > 0){global.note_alert --}
+if(!global.viewPlayer && global.detection != global.leveldflt){
+	timer --
+	if(timer <= 0){
+		global.detection = global.leveldflt
+		global.NpcArraySaw = []
+	}
+}else{ timer = 120}
+
+
 
 if (keyboard_check_pressed(vk_escape) && !check_sequence(oSettings)){
 	alarm[2] = 15
