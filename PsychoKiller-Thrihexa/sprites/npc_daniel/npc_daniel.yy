@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"npc_man_2",
+  "%Name":"npc_daniel",
   "bboxMode":0,
   "bbox_bottom":20,
   "bbox_left":2,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6712ca55-f022-4250-9a7c-42d32aa17dc6","name":"6712ca55-f022-4250-9a7c-42d32aa17dc6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"04c60132-82c0-47c6-88c1-9a401fc62878","name":"04c60132-82c0-47c6-88c1-9a401fc62878","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":22,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fd34aa0c-8a69-49a3-a5a0-2b355de086a0","blendMode":0,"displayName":"default","isLocked":false,"name":"fd34aa0c-8a69-49a3-a5a0-2b355de086a0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d927dcb9-9adc-47ed-b276-6b1dab64a11c","blendMode":0,"displayName":"default","isLocked":false,"name":"d927dcb9-9adc-47ed-b276-6b1dab64a11c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"npc_man_2",
+  "name":"npc_daniel",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"npc_man_2",
+    "%Name":"npc_daniel",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"npc_man_2",
+    "name":"npc_daniel",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6712ca55-f022-4250-9a7c-42d32aa17dc6","path":"sprites/npc_man_2/npc_man_2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c966edb5-9ac5-42c2-801d-a95cafed6786","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"04c60132-82c0-47c6-88c1-9a401fc62878","path":"sprites/npc_daniel/npc_daniel.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"84125ffc-5738-4909-9376-102f631dbadb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
