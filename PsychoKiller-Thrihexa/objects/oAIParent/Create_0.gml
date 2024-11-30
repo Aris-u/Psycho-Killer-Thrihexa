@@ -11,6 +11,7 @@ pathNextPoint = 0;
 
 pathPointX = 0
 pathPointY = 0
+warning = false;
 
 move_to_point = function(_targetX, _targetY) {
 	var _canMove = mp_grid_path(global.AIGrid, path, x, y, _targetX, _targetY, false);
@@ -24,3 +25,17 @@ move_to_point = function(_targetX, _targetY) {
 	}
 }
 
+awareness_hierarchy = function(){
+	var detect_dead = distance_to_object(oNPCdead)
+	var transform_range = to_room(minRange)
+	if(detect_dead < transform_range)return true
+	if(global.HoldItem == "Revolver"){
+		var detect_player_gun = distance_to_object(oPlayer)
+		if(detect_player_gun < transform_range){
+			global.lastSawX = to_tile(irandom_range(oPlayer.x - 80, oPlayer.x+80))	
+			global.lastSawY = to_tile(irandom_range(oPlayer.y - 80, oPlayer.y+80))
+			return true
+		}
+	}
+	return false;
+}

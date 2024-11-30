@@ -10,3 +10,9 @@ if (pathNextPoint > 0 && x == pathPointX && y == pathPointY) {
 		pathNextPoint = 0;
 	}
 }
+
+if (watcher){
+	if(awareness_hierarchy()){warning = true}
+	else { warning = false;}
+	if(global.viewPlayer)if(warning){ update_alert(5)}
+}   

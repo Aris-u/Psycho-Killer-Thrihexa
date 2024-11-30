@@ -29,28 +29,30 @@ _npcTarget = noone;
 _playerTarget = noone;
 in_settings = false;
 inventoryOpen = false;
-
+kill = false;
 camW = camera_get_view_width(camera)
 camH = camera_get_view_height(camera)
 
 zoom_dialog = function(_obj) {
 	_Target = _obj
-	alarm[1] = 30
+	var _parentTarget = object_get_parent(_Target.object_index);
+	if (_parentTarget == oItemParent){global.grabbed_item = _Target.displayName;}
+	if (_parentTarget == oNPCParent){
+		if(_Target.showDeathIcon = true){
+			_Target.dead = true; 
+			alarm[3] = 30; 
+			kill = true;
+		}
+	}
+	if(!kill){alarm[1] = 30}
 	startDialogZoom = true;
-}
-
-zoom_inv = function() {
-	alarm[3] = 30
-	inventoryOpen = true;
 }
 
 reset_cam = function(){
 	var _parentTarget = object_get_parent(_Target.object_index);
 	if (_parentTarget == oItemParent){_Target.takeItem()}
+	if(kill){instance_destroy(_Target); kill = false;}
 	_Target = noone;
 	startDialogZoom = false;	
 }
 
-reset_cam_inv = function(){
-	inventoryOpen = false;	
-}

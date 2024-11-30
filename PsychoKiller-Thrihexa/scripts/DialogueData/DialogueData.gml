@@ -14,6 +14,9 @@ var _speakers = {
 }
 
 global.dialogue = {}
+global.grabbed_item =  ""
+global.ignore_input = false;
+global.HoldItem = noone;
 
 global.dialogue.bob_meet = [
 	{
@@ -38,9 +41,26 @@ global.dialogue.bob_meet = [
 	},
 ]
 
-global.dialogue.get_gun = [
+global.dialogue.get_item = [
 	{
 		speaker: _speakers.GM_,
-		message: "...You've take the gun"
+		message: "...You've take the " 
+	}
+]
+
+global.dialogue.bob_kill = [
+	{
+		speaker: _speakers.bob,
+		message: "Wait.....what are you doing with that gun ?"
+	},{
+		speaker: _speakers.player,
+		message:"Nothing personal buddy..... just bussines ya'know ?"
+	}
+]
+
+global.dialogue.hand_item= [
+	{
+		speaker: _speakers.GM_,
+		message: "Using:  " 
 	}
 ]

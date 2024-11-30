@@ -1,11 +1,10 @@
+if(dead){exit}
+
 if global.paused {
 	set_state(states.idle);	
 	sprite_index = get_sprite(moveDirection);
 	exit;
 }
-
-
-
 
 if (inputX != 0 || inputY != 0) {
 	if(!moving){
@@ -14,7 +13,7 @@ if (inputX != 0 || inputY != 0) {
 		var _newTileX = to_tile(x) + inputX;
 		var _newTileY = to_tile(y) + inputY
 		
-		var _col = collission(_newTileX, _newTileY)
+		var _col = collission(_newTileX, _newTileY,id)
 		
 		if(!_col){
 			targetX = to_room(_newTileX + 0.5);
