@@ -99,6 +99,7 @@
     {"name":"ShroudSystem","order":7,"path":"scripts/ShroudSystem/ShroudSystem.yy",},
     {"name":"seqInventoryEntrance","order":3,"path":"sequences/seqInventoryEntrance/seqInventoryEntrance.yy",},
     {"name":"seqSettings","order":2,"path":"sequences/seqSettings/seqSettings.yy",},
+    {"name":"itens","order":10,"path":"sprites/itens/itens.yy",},
     {"name":"note_pad_inventory","order":6,"path":"sprites/note_pad_inventory/note_pad_inventory.yy",},
     {"name":"npc_daniel","order":1,"path":"sprites/npc_daniel/npc_daniel.yy",},
     {"name":"npc_Emily","order":2,"path":"sprites/npc_Emily/npc_Emily.yy",},

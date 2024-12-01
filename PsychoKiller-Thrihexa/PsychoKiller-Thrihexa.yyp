@@ -150,6 +150,7 @@
     {"id":{"name":"corredor_objetos_1","path":"sprites/corredor_objetos_1/corredor_objetos_1.yy",},},
     {"id":{"name":"corredor_objetos_2","path":"sprites/corredor_objetos_2/corredor_objetos_2.yy",},},
     {"id":{"name":"corredor_parede_2","path":"sprites/corredor_parede_2/corredor_parede_2.yy",},},
+    {"id":{"name":"itens","path":"sprites/itens/itens.yy",},},
     {"id":{"name":"note_pad_inventory","path":"sprites/note_pad_inventory/note_pad_inventory.yy",},},
     {"id":{"name":"npc_Andrew","path":"sprites/npc_Andrew/npc_Andrew.yy",},},
     {"id":{"name":"npc_daniel","path":"sprites/npc_daniel/npc_daniel.yy",},},
