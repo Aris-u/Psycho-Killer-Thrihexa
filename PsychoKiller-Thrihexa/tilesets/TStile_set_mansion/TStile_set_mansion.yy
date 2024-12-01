@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"TStile_set_mansion",
-  "out_columns":149,
+  "out_columns":143,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"tile_set_mansion",
-    "path":"sprites/tile_set_mansion/tile_set_mansion.yy",
+    "name":"tile_set_mansion_primeiro_andar_atualizado",
+    "path":"sprites/tile_set_mansion_primeiro_andar_atualizado/tile_set_mansion_primeiro_andar_atualizado.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":22110,
+  "tile_count":20584,
 }
