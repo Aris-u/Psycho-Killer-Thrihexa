@@ -17,5 +17,6 @@ if (_target != noone && !check_sequence() && global.detection = alert.red)
 {
 	_target.moveDirection = point_direction(_target.x, _target.y, x, y)
 	create_textbox(defaultDialogue)
+	_target.dead = true
 	global.game_over = true
 }

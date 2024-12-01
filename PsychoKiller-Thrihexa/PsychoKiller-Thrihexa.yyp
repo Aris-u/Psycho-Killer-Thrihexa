@@ -60,7 +60,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"PsychoKiller-Thrihexa",
   "resources":[
@@ -112,6 +112,7 @@
     {"id":{"name":"oTree1","path":"objects/oTree1/oTree1.yy",},},
     {"id":{"name":"oWAIBob","path":"objects/oWAIBob/oWAIBob.yy",},},
     {"id":{"name":"oWaiterParent","path":"objects/oWaiterParent/oWaiterParent.yy",},},
+    {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"PointB","path":"objects/PointB/PointB.yy",},},
     {"id":{"name":"rm0_corridor","path":"rooms/rm0_corridor/rm0_corridor.yy",},},
     {"id":{"name":"rm0_dining","path":"rooms/rm0_dining/rm0_dining.yy",},},
