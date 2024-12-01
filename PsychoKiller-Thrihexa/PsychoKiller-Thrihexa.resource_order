@@ -70,6 +70,7 @@
     {"name":"oSelectArrow","order":4,"path":"objects/oSelectArrow/oSelectArrow.yy",},
     {"name":"oTextBox","order":6,"path":"objects/oTextBox/oTextBox.yy",},
     {"name":"oWAIBob","order":3,"path":"objects/oWAIBob/oWAIBob.yy",},
+    {"name":"oWall","order":3,"path":"objects/oWall/oWall.yy",},
     {"name":"PointB","order":2,"path":"objects/PointB/PointB.yy",},
     {"name":"rm0_corridor","order":8,"path":"rooms/rm0_corridor/rm0_corridor.yy",},
     {"name":"rm0_employee","order":1,"path":"rooms/rm0_employee/rm0_employee.yy",},
