@@ -212,6 +212,7 @@
     {"id":{"name":"sTextboxMask","path":"sprites/sTextboxMask/sTextboxMask.yy",},},
     {"id":{"name":"sTextBoxNameBox","path":"sprites/sTextBoxNameBox/sTextBoxNameBox.yy",},},
     {"id":{"name":"sTree","path":"sprites/sTree/sTree.yy",},},
+    {"id":{"name":"tile_set_mansion_primeiro_andar_atualizado","path":"sprites/tile_set_mansion_primeiro_andar_atualizado/tile_set_mansion_primeiro_andar_atualizado.yy",},},
     {"id":{"name":"tile_set_mansion","path":"sprites/tile_set_mansion/tile_set_mansion.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"tsColl","path":"tilesets/tsColl/tsColl.yy",},},

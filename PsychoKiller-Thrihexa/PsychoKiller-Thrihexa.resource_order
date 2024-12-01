@@ -144,6 +144,7 @@
     {"name":"sTextBoxFrame","order":6,"path":"sprites/sTextBoxFrame/sTextBoxFrame.yy",},
     {"name":"sTextboxMask","order":3,"path":"sprites/sTextboxMask/sTextboxMask.yy",},
     {"name":"sTextBoxNameBox","order":5,"path":"sprites/sTextBoxNameBox/sTextBoxNameBox.yy",},
+    {"name":"tile_set_mansion_primeiro_andar_atualizado","order":11,"path":"sprites/tile_set_mansion_primeiro_andar_atualizado/tile_set_mansion_primeiro_andar_atualizado.yy",},
     {"name":"tile_set_mansion","order":8,"path":"sprites/tile_set_mansion/tile_set_mansion.yy",},
     {"name":"tsColl","order":1,"path":"tilesets/tsColl/tsColl.yy",},
     {"name":"TStile_set_mansion","order":9,"path":"tilesets/TStile_set_mansion/TStile_set_mansion.yy",},
