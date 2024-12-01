@@ -158,6 +158,8 @@
     {"id":{"name":"npc_daniel","path":"sprites/npc_daniel/npc_daniel.yy",},},
     {"id":{"name":"npc_Emily","path":"sprites/npc_Emily/npc_Emily.yy",},},
     {"id":{"name":"npc_emma","path":"sprites/npc_emma/npc_emma.yy",},},
+    {"id":{"name":"npc_gar_om","path":"sprites/npc_gar_om/npc_gar_om.yy",},},
+    {"id":{"name":"npc_guarda_costas","path":"sprites/npc_guarda_costas/npc_guarda_costas.yy",},},
     {"id":{"name":"npc_Jason","path":"sprites/npc_Jason/npc_Jason.yy",},},
     {"id":{"name":"npc_Kevin","path":"sprites/npc_Kevin/npc_Kevin.yy",},},
     {"id":{"name":"npc_Lisa","path":"sprites/npc_Lisa/npc_Lisa.yy",},},
