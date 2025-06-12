@@ -15,5 +15,5 @@ function collission(tileX, tileY, _Target) {
 	{
 	if (position_meeting(_roomX, _roomY, oInvisible)) return true;
 	}
-	return false;
+ 	return false;
 }

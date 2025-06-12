@@ -1,7 +1,7 @@
 // colission tilemap
 global.paused = false
 
-collTilemap = layer_tilemap_get_id("TilesColl")
+collTilemap = layer_tilemap_get_id("TileColl")
 
 var _gridWidth = to_tile(room_width);
 var _gridHeight = to_tile(room_height);

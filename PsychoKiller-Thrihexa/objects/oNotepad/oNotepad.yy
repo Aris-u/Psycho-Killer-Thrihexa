@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sNotepad",
-    "path":"sprites/sNotepad/sNotepad.yy",
+    "name":"note_pad_inventory",
+    "path":"sprites/note_pad_inventory/note_pad_inventory.yy",
   },
   "spriteMaskId":null,
   "visible":true,
