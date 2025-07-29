@@ -14,7 +14,7 @@
   "name":"rm1_suite2",
   "parent":{
     "name":"level 1",
-    "path":"folders/Rooms/level 1.yy",
+    "path":"folders/Package_Game/Rooms/level 1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
