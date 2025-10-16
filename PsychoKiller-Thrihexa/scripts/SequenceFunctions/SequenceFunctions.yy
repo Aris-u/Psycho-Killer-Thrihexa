@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SequenceFunctions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SequenceFunctions",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Package_Game/Assets/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
